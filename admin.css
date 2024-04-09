@@ -1,0 +1,24 @@
+
+*{
+    font-family: 'Quicksand';
+    box-sizing: border-box;
+    padding: 0;
+    margin:0;
+    scroll-behavior: smooth;
+}
+
+.row{
+    display: flex;
+    align-items: center;
+}
+
+.navbar{
+    justify-content: space-between;
+    width: 80%;
+    margin: 0 auto;
+}
+.user-logout i{
+    color: white;
+    font-size: 25px;
+    cursor: pointer;
+}
